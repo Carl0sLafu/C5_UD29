@@ -1,0 +1,49 @@
+body {
+
+    color: red;
+
+}
+
+table {
+
+    border: 3px black solid;
+    background-image: url("../img/patitas.jpg");
+    border-collapse: collapse;
+
+}
+
+table * {
+
+    border: 2px black solid;
+
+}
+
+th {
+
+    text-transform: uppercase;
+
+}
+
+tr:first-of-type th {
+
+    background-color: rgb(37, 124, 37);
+
+}
+
+tr:nth-of-type(even) th {
+
+    background-color: rgb(255, 210, 126);
+
+}
+
+tr th {
+
+    background-color: rgb(255, 255, 128);
+
+}
+
+td {
+
+    text-align: center;
+
+}

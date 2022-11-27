@@ -1,0 +1,57 @@
+div {
+
+    margin: 10px;
+    border: 1px blue solid;
+    background-color: rgb(98, 211, 255);
+    width: 300px;
+    height: 230px;
+    position: relative;
+
+}
+
+span {
+
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+}
+
+#divflex {
+
+    display: inline-block;
+    width: 80%;
+    height: 500px;
+    border-color: red;
+
+}
+
+.clouds {
+
+    position: absolute;
+    top: 0;
+    background-image: url("../img/f03.png");
+    background-repeat: repeat-x;
+    background-position: top;
+
+}
+
+.contentmario {
+
+    position: absolute;
+    background-image: url("../img/f02.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: left
+    
+}
+
+.ground {
+
+    position: absolute;
+    bottom: 0;
+    background-image: url("../img/f01.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+
+}

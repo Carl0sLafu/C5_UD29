@@ -1,0 +1,17 @@
+table {
+
+    border: 1px black solid;
+
+}
+
+table * {
+
+    border: 1px black solid;
+
+}
+
+tr:nth-of-type(3) {
+
+    font-weight: bold;
+
+}
